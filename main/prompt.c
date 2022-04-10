@@ -26,6 +26,7 @@ void	sig_handel(int signal)
 		rl_on_new_line();
 		rl_replace_line("", 0);
 		rl_redisplay();
+		g_vars.exit_code = 1;
 	}
 	if (signal == SIGINT && g_vars.sig_indice == -1)
 	{
