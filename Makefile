@@ -32,6 +32,7 @@ GNL_INCLUDE = $(GNL_PATH)get_next_line.h
 RL_INCLUDE = -I /goinfre/$(USER)/.brew/opt/readline/include
 
 CC = gcc
+
 CFLAGS = -Wall -Wextra -Werror
 
 SRC	=	minishell.c		\
